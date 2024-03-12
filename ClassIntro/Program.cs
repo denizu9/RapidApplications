@@ -23,8 +23,6 @@
         {
             Console.WriteLine(course.courseName + " : " + course.instructor + " , " + " Watch Count : " + " " + course.watchCount);
         }
-
-
     }
 
     class Course
