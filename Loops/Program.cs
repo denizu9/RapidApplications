@@ -5,9 +5,14 @@
 
         string[] courseNames = new string[] {"C#", "Java", "React", "Python"};
 
-        for (int course = 0; course < courseNames.Length; course++)
+        for (int i = 0; i < courseNames.Length; i++)
         {
-            Console.WriteLine(courseNames[course]);
-        }   
+            Console.WriteLine(courseNames[i]);
+        }
+
+        foreach (string course in courseNames)
+        {
+            Console.WriteLine(course);
+        }
     }
 }
