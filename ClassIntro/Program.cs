@@ -7,8 +7,24 @@
         course1.instructor = "Engin Demiroğ";
         course1.watchCount = 3200;
 
-        Console.WriteLine("Course Name : " + " " + course1.courseName + ", " + "Instructor : " + " " + course1.instructor 
-            + ", " + "Watch Count : " + " " + course1.watchCount);
+        Course course2 = new Course();
+        course2.courseName = "Java";
+        course2.instructor = "Engin Demiroğ";
+        course2.watchCount = 5000;
+
+        Course course3 = new Course();
+        course3.courseName = "Python";
+        course3.instructor = "Emre Geçen";
+        course3.watchCount = 2790;
+
+        Course[] courseList = new Course[] {course1, course2, course3};
+
+        foreach (Course course in courseList)
+        {
+            Console.WriteLine(course.courseName + " : " + course.instructor + " , " + " Watch Count : " + " " + course.watchCount);
+        }
+
+
     }
 
     class Course
