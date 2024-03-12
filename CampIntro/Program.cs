@@ -12,6 +12,11 @@
         {
             Console.WriteLine("Dolar Incresead!");
         }
+        else if (dolarPriceToday == dolarPriceYesterday)
+        {
+            Console.WriteLine("Price does not change!");
+          
+        }
         else
         {
             Console.WriteLine("Dolar Decreased!");
