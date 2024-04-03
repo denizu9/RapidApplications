@@ -1,0 +1,4 @@
+https://stackoverflow.com/questions/5455794/removing-whitespace-from-strings-in-java
+
+buttonun properties'inde text alanının başına &Send eklersek S'nin altını çizer.
+Uygulama çalışırken alt + baş harfine tıklarsak otomatik tıklamış olur.
