@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="../bin/Debug/DogRace.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="876 514">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">MainWindow</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.Fixed" id="fixed3">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.Button" id="button2">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Create Object</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="createObject" />
+          </widget>
+          <packing>
+            <property name="X">75</property>
+            <property name="Y">118</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button3">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Start Training</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="startTraining" />
+          </widget>
+          <packing>
+            <property name="X">74</property>
+            <property name="Y">179</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button4">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Display Object</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="displayObject" />
+          </widget>
+          <packing>
+            <property name="X">74</property>
+            <property name="Y">238</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button5">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Create 5 Racer Dog</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="createFiveDog" />
+          </widget>
+          <packing>
+            <property name="X">414</property>
+            <property name="Y">119</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button6">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Start Racing</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="startRacing" />
+          </widget>
+          <packing>
+            <property name="X">415</property>
+            <property name="Y">171</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button7">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Display Result</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="displayResult" />
+          </widget>
+          <packing>
+            <property name="X">417</property>
+            <property name="Y">229</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label5">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Output Screen</property>
+          </widget>
+          <packing>
+            <property name="X">261</property>
+            <property name="Y">311</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Entry" id="entry4">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="IsEditable">True</property>
+            <property name="InvisibleChar">•</property>
+          </widget>
+          <packing>
+            <property name="X">222</property>
+            <property name="Y">351</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>

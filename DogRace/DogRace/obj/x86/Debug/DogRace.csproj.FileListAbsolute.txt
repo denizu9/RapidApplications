@@ -1,0 +1,6 @@
+/home/denizu9/Projects/DogRace/DogRace/bin/Debug/DogRace.exe
+/home/denizu9/Projects/DogRace/DogRace/bin/Debug/DogRace.pdb
+/home/denizu9/Projects/DogRace/DogRace/obj/x86/Debug/DogRace.csproj.AssemblyReference.cache
+/home/denizu9/Projects/DogRace/DogRace/obj/x86/Debug/DogRace.csproj.CoreCompileInputs.cache
+/home/denizu9/Projects/DogRace/DogRace/obj/x86/Debug/DogRace.exe
+/home/denizu9/Projects/DogRace/DogRace/obj/x86/Debug/DogRace.pdb
